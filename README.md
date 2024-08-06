@@ -1,4 +1,4 @@
-Still trying to figure out how to make this more accurate, as right now, the cross-validation score is at a 52%. Do not use this to trade. PLEASE.
+Still trying to figure out how to make this more accurate, as right now, the cross-validation score is at a 52%.
 
 Uses random forest classifier instead of linear regression as stock is volatile. Instead of linear relationships, it is easier for stocks to use random forest to create however many decision trees and takes the average of X to output Y.
 
