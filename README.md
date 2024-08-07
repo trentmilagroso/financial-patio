@@ -4,4 +4,6 @@ Uses random forest classifier instead of linear regression as stock is volatile.
 
 This is a project that I used to teach me fundamentals on machine learning, specifically about random forests and decision trees.
 
-Currently working on adding a web scraper that takes news and assigns the title and article with a sentiment value for stock. If the predictor says to invest, yet the sentiment value shows negative for the stock, it would probably be best not to invest.
+August 07, 2024
+Added a webscraper that goes through Yfinance in search of whatever stock you input. Returns a sentiment value for the news articles and indicates whether or not you should buy, hold, or sell the stock.
+- Also trained and fine-tuned my own BERT model that uses publicly available data (FinancialPhraseBank) for better results. I am however not satisfied with the results... yet.
