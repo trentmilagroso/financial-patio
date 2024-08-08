@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments
 import torch
 
-# Load data
+# Load data; Uses FinancialPhraseBank
 data_path = r'C:\Users\tmilagroso\Downloads\pythonProj\all-data.csv'  # Update the path as needed
 df = pd.read_csv(data_path, encoding='ISO-8859-1')
 
