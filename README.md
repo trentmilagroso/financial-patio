@@ -7,3 +7,7 @@ This is a project that I used to teach me fundamentals on machine learning, spec
 August 07, 2024
 Added a webscraper that goes through Yfinance in search of whatever stock you input. Returns a sentiment value for the news articles and indicates whether or not you should buy, hold, or sell the stock.
 - Also trained and fine-tuned my own BERT model that uses publicly available data (FinancialPhraseBank) for better results. 
+
+August 08, 2024
+-
+Created a Workshop for VT HACKS 12, a hackathon with 600+ attendees. I am presenting this code, along with the CMDA club at Virginia Tech to showcase exploratory data analysis. Find the code in the workshop file.
